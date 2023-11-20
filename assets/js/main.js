@@ -1,4 +1,4 @@
-// = Menu show Y hidden
+// ================ Menu show Y hidden
 const navMenu = document.getElementById('nav-menu'),
       navToggle =document.getElementById('nav-toggle'),
       navClose = document.getElementById('nav-close')
@@ -12,7 +12,7 @@ if(navToggle){
 }
 
 
-// Menu hidden
+// =================== Menu hidden ===
 // validate if constant exists
 if(navClose){
     navClose.addEventListener('click',()=>{
@@ -32,7 +32,17 @@ function linkAction(){
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
 
-// accordion skills
+//====================== accordion skills
 
 
-// qualification tab
+//======================= qualification tabs
+
+//================= services modal
+
+// ================ portfolio swiper
+
+//================ testimonial
+
+// ================== scroll section active link
+
+// ================= change background header

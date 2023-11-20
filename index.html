@@ -51,14 +51,15 @@
                     </li>
                     <li class="nav__item">
                         <a href="#contactme" class="nav__link">
-                            <i class="uil uil-message nav__icon"></i>Contact me                        </a>
+                            <i class="uil uil-message nav__icon"></i>Contact me   
+                        </a>
                     </li>
                 </ul>
-                <i class="uil uil-times nav__close" id="nav-close"></i>
+                <i class="uil uil-times nav__close" id="nav-close"> close </i>
             </div>
             <div class="nav__btns">
                 <div class="nav__toggle" id="nav-toggle">
-                    <i class="uil uil-apps"></i>
+                    <i class="uil uil-apps"> menu </i>
                 </div>
             </div>
         </nav>
@@ -68,46 +69,285 @@
         <!-- home -->
         <section class="home section" id="home">
             <div class="home__container container grid">
-                <div class="home__social">
-                    <a href="https://www.linkedin.com/in/sarai-sadjo-legbane-727658168/" class="home__social-icon">
-                        <i class="uil uil-linkedin-alt"></i>
-                    </a>
-                    <a href="https://github.com/sadjosarai" class="home__social-icon">
-                        <i class="uil uil-github"></i>
-                    </a>
-                    <a href="https://dribbble.com/WorkMaster237" class="home__social-icon">
-                        <i class="uil uil-dribbble"></i>
-                    </a>
-                </div>
-                <div class="home__img">
-                    <svg class="home__blob" width="320" height="300" viewBox="0 0 320 300" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path id="Exclude" fill-rule="evenodd" clip-rule="evenodd" d="M0 88.704C-0.000655656 137.268 26.4734 209.875 26.4734 209.875C26.4734 209.875 56.9369 297.94 122.49 299.933C190.312 301.995 227.287 256.277 255.897 220.061C284.506 183.845 351.371 79.7305 302.83 48.1327C260.77 20.754 211.712 0.00101972 151.263 0H320V300H0V88.704ZM151.254 0C141.941 0.000157089 132.359 0.4928 122.49 1.52957C48.5529 9.29678 28.6232 20.2128 6.44248 57.1595C1.82763 64.8465 0.000172252 75.9455 0 88.704V0H151.254Z" 
-                        fill="black" fill-opacity="0.8"/>
+                <div class="home__content grid">
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/sarai-sadjo-legbane-727658168/" class="home__social-icon">
+                            <i class="uil uil-linkedin-alt">In</i>
+                        </a>
+                        <a href="https://github.com/sadjosarai" class="home__social-icon">
+                            <i class="uil uil-github">Git</i>
+                        </a>
+                        <a href="https://dribbble.com/WorkMaster237" class="home__social-icon">
+                            <i class="uil uil-dribbble">Drbbb</i>
+                        </a>
+                    </div>
+                    <div class="home__img">
+                        <svg class="home__blob" width="320" height="300" viewBox="0 0 320 300" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <rect width="320" height="300" fill="rgba(0,0,0,0)"/>
+                            <g id="Intersect" mask="url(#mask0)">
+                                <mask id="mask0" fill="white">
+                                    <path id="mask-path" fill-rule="evenodd" clip-rule="evenodd" d="M0 88.704C-0.000655656 137.268 26.4734 209.875 26.4734 209.875C26.4734 209.875 56.9369 297.94 122.49 299.933C190.312 301.995 227.287 256.277 255.897 220.061C284.506 183.845 351.371 79.7305 302.83 48.1327C260.77 20.754 211.712 0.00101972 151.263 0C151.26 0 151.257 0 151.254 0C141.941 0.000157089 132.359 0.4928 122.49 1.52957C48.5529 9.29678 28.6232 20.2128 6.44248 57.1595C1.82763 64.8465 0.000172252 75.9455 0 88.704Z"/>
+                                </mask>
+                                <path id="internal-path" fill-rule="evenodd" clip-rule="evenodd" d="M0 88.704C-0.000655656 137.268 26.4734 209.875 26.4734 209.875C26.4734 209.875 56.9369 297.94 122.49 299.933C190.312 301.995 227.287 256.277 255.897 220.061C284.506 183.845 351.371 79.7305 302.83 48.1327C260.77 20.754 211.712 0.00101972 151.263 0C151.26 0 151.257 0 151.254 0C141.941 0.000157089 132.359 0.4928 122.49 1.52957C48.5529 9.29678 28.6232 20.2128 6.44248 57.1595C1.82763 64.8465 0.000172252 75.9455 0 88.704Z" fill="black" fill-opacity="0.8"/>
+                                <image x="-120" y="-10" xlink:href="./assets/img/sarai.jpg" />
+                            </g>
+                        </svg>
+                    </div>
 
-                        <image class="home__blob-image" xlink:href="./assets/img/sarai.jpg" />
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg"
-                        width="1in" height="1in"
-                        viewBox="0 0 300 300">
-                        <path id="Sans nom"
-                            fill="none" stroke="black" stroke-width="1"
-                            d="M 268.00,56.00
-                            C 241.00,-16.00 23.91,-14.73 19.00,63.00
-                                20.00,218.00 145.00,289.00 157.00,289.00
-                                181.00,291.00 316.08,152.84 268.00,56.00 Z
-                            M 285.00,263.00" />
+                    <div class="home__data">
+                        <h1 class="home__title">Hi, I'am Sadjo</h1>
+                        <h3 class="home__subtitle">Full stack developer, web and graphic designer</h3>
+                        <p class="home__description">Good level of experience in web and graphic design, 
+                            branding and web developement</p>
+                        <a href="#contact" class="button button__flex">
+                            Contact Me<i class="uil uil-message button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="home__scroll">
+                    <a href="#about" class="home__scroll-button button__flex">
+                        <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                        <span class="home__scroll-name">Scroll down</span>
+                        <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                    </a>
+                </div>
 
-                            <image class="home__blob-image" xlink:href="./assets/img/sarai.jpg" />
-                    </svg>
-                </div>
-                <div class="home__data">
-                    
-                </div>
             </div>
         </section>
         <!-- About -->
+        <section class="about section" id="about">
+            <h2 class="section__title">About Me</h2>
+            <span class="section__subtitle">My Introduction</span>
+
+            <div class="about__container container grid">
+                <img src="assets/img/about me.jpg" alt="" class="about__img">
+
+                <div class="about__data">
+                    <p class="about__description">
+                        Web developer, with extensible knowledge and years of
+                        experience, working in Branding, web technologies and UI/UX Design, delivering quality work.
+                    </p>
+                    <div class="about__info">
+                        <div>
+                            <span class="about__info-title">01+</span>
+                            <span class="about__info-name">Years <br> experience</span>
+                        </div>
+                        <div>
+                            <span class="about__info-title">10+</span>
+                            <span class="about__info-name">Completed <br> Projects</span>
+                        </div>
+                        <div>
+                            <span class="about__info-title">05+</span>
+                            <span class="about__info-name">companies <br> contracted</span>
+                        </div> 
+                    </div>
+
+                    <div class="about__buttons">
+                        <a download="" href="assets/pdf/CV SADJO LEGBANE SARAI Inf-en.pdf" class="button button__flex">
+                            Download CV<i class="uil uil-dowload-alt button__icon"></i>
+                        </a>
+                    </div>
+                   
+                </div>
+            </div>
+        </section>
+
 
         <!-- Skills -->
+        <section class="skills section" id="skills">
+            <h2 class="section__title">Skills</h2>
+            <span class="section__subtitle">My technical level</span>
+
+            <div class="skills__container container grid">
+                <div>
+                    <!-- ======= skills 1 ======= -->
+                    <div class="skills__content skills__open">
+                        <div class="skills__header">
+                            <i class="uil uil-brackets-curly skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__titles">Front-End developer</h1>
+                                <span class="skills__subtitle">More than 1 years</span>
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list skills__list-grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">HTML</h3>
+                                    <span class="skills__number">90%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__html"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">CSS</h3>
+                                    <span class="skills__number">70%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__css"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Javascript</h3>
+                                    <span class="skills__number">60%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__js"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Vue</h3>
+                                    <span class="skills__number">40%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__vue"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Bootstrap and Bootstrap Studio</h3>
+                                    <span class="skills__number">70%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__bootstrap"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ======== skills 2 ===== -->
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil uil-server-network skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__titles">Back-End developer</h1>
+                                <span class="skills__subtitle">More than 1 years</span>
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list skills__list-grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Java SE and EE</h3>
+                                    <span class="skills__number">60%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__java"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Node JS</h3>
+                                    <span class="skills__number">40%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__node"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Firebase</h3>
+                                    <span class="skills__number">60%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__firebase"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">oracle</h3>
+                                    <span class="skills__number">55%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__oracle"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Python</h3>
+                                    <span class="skills__number">50%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__py"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ======= skills 3 ======== -->
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil uil-swatchbook skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__titles">Designer</h1>
+                                <span class="skills__subtitle">More than 1 years</span>
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list skills__list-grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Figma</h3>
+                                    <span class="skills__number">85%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__figma"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Gimp</h3>
+                                    <span class="skills__number">70%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__gimp"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">sketchbook</h3>
+                                    <span class="skills__number">50%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__sketchbook"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Krita</h3>
+                                    <span class="skills__number">55%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__krita"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Photoshop</h3>
+                                    <span class="skills__number">40%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__photoshop"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <!-- qualification -->
 
