@@ -675,7 +675,13 @@ img{
 
 
 /* ================ PORTFOLIO ========================= */
+.portfolio__container{
+    overflow: initial;
+}
 
+.portfolio__content{
+    
+}
 
 /* ================ PROJECT IN MIND ============================== */
 
