@@ -680,12 +680,16 @@ img{
 }
 
 .portfolio__content{
-    padding: 0 1.5rem;
+    padding: 0rem .5rem;
 }
 
-.portfolio__img{
-    /* width: 265px; */
+.portfolio__img-container{
     border-radius: .5rem;
+    width: 100%;
+    max-height: 200px;
+    overflow-y: hidden;
+}
+.portfolio__img{
     justify-self: left;
 }
 
@@ -698,9 +702,43 @@ img{
     margin-bottom: var(--mb-0-75);
 }
 
-.portfolio__button:hover{
+.portfolio__button:hover .button__icon{
     transform: translateX(.25rem);
 }
+
+.swiper-button-prev::after, 
+.swiper-button-next::after {
+    content:'';
+}
+
+.swiper-portfolio-icon{
+    font-size:2rem;
+    color:var(--first-color)
+}
+
+.swiper-button-prev{
+    left: -.5rem;
+}
+.swiper-button-next{
+    right: -.5rem;
+}
+
+.swiper-container-horizontal > .swiper-pagination-bullets{
+    bottom: -2.5rem;
+}
+
+.swiper-pagination-bullet-active{
+    background-color: var(--first-color);
+}
+
+.swiper-button-prev,
+.swiper-button-next,
+.swiper-pagination-bullet{
+    outline: none;
+}
+
+
+
 
 
 /* ================ PROJECT IN MIND ============================== */
